@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an Ecommerce project for making Imran express">
+    <title>Ecommerce-project</title>
+    <!--for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- navbar starts here -->
+   <i class="fas fa-bars fa-2x"
+   id="menu-icon"></i>
+  <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+            <a href="indext.html" 
+            class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+            <a href="register.html" 
+            class="nav__link">Register</a>
+        </li>
+        <li class="nav__list">
+            <a href="login.html" 
+            class="nav__link">Login</a>
+        </li>
+        <li class="nav__list">
+            <a href="indext.html" 
+            class="nav__link">Logout</a>
+        </li>
+        <li class="nav__list">
+            <a href="contact.html" 
+            class="nav__link">Contact</a>
+        </li>
+        <li class="nav__list">
+            <a href="profile.html" 
+                 class="nav__link">
+                 <img class="profile-icon" src="image/img1.jpg" 
+                 alt="profile-icon">
+             </a>
+        </li>
+     </ul>
+     <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+          <a href="indext.html" class="nav__brand 
+          nav__link">Imran Express</a>
+        </li>
+        <li class="nav__list">
+            <a href="card.html" class="nav__link">
+                <span><i class="fa-solid fa-cart-shopping"></i> </span>
+                Cart 2 product - $124.40
+            </a>
+        </li>
+     </ul>
+   </nav>
+   <!-- navbar ends here -->
+
+   <main class="flex-center">
+    <div class="main-content">
+        <div class="product-details flex-center">
+            <div class="product__tetails-left flex-center">
+                <img src="image/product1.jpg" alt="product1">
+            </div>
+            <div class="product__tetails-right">
+                <h3 class="product__name">
+                    Sony V-4 Headphone
+                </h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product__description">
+                    <strong>description: </strong>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, 
+                    voluptates dolorum aut praesentium cum in dolorem soluta a explicabo?
+                     Omnis dicta sapiente amet animi reiciendis?
+                </p>
+                <p class="product__description">
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                   Distinctio odit deleniti officia ratione dolorum in nulla 
+                   porro magni consequatur error est unde facilis ex obcaecati impedit, 
+                   eligendi officiis cupiditate iusto. Temporibus officia veritatis obcaecati perferendis!
+                </p>
+                <p class="product__description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Distinctio odit deleniti officia ratione dolorum in nulla 
+                    porro magni consequatur error est unde facilis ex obcaecati impedit, 
+                    eligendi officiis cupiditate iusto. Temporibus officia veritatis obcaecati perferendis!
+                 </p>
+                
+                <h4 class="product__category">Category: Headphone</h4>
+                <h4 class="product__price">Price: $225.99</h4>
+                <p class="product__rating">Rating: 4.5/5</p>
+                <button class="btn product__btn">Add to cart</button>
+                <button class="btn product__btn">Back To Shopping</button>
+            </div>
+        </div>
+    </div>
+   </main>
+
+   <!-- footer starts here -->
+   <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2023 Imran Express. All rights rserved</p>
+    </div>
+   </footer>
+   <!-- footer ends here -->
+   <script src="sripts/index.js"></script>
+</body>
+</html>
